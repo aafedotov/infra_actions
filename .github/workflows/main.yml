@@ -53,6 +53,5 @@ jobs:
         # Пуш образа в Docker Hub
         uses: docker/build-push-action@v2
         with:
-          context: .
           push: true
-          tags: aafedotov/infra_actions:latest
+          tags: fedotovaa/infra_actions:latest
